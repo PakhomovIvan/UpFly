@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 30px;
+    background-color: #F6F6F5;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.col__1 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+}
+
+.row__1 {
+    display: flex;
+    /* gap: 12px; */
+}
+
+.block {
+    background-color: #ddd;
+    border: solid 1px #aaa;
+    /* padding: 20px; */
+    text-align: center;
+    height: 100%;
+}
+
+.b_left{
+    text-align: left;
+}
+
+.b_down {
+    vertical-align: bottom;
+}
+
+.header {
+    min-height: 80px;
+    margin: 72px;
+    background-color: #ddd;
+    border: solid 1px #aaa;
+}
+
+.header__link {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 22px;
+    color: #161616;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+    color: black;
+    border-top: solid 2px #B8926B;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    padding-right: 48px;
+}
+
+li:last-child {
+    padding-right: 0px;
+}
+
+.phones-info__number {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 22px;
+    color: #B8926B;
+    vertical-align: middle
+}
+
+.phones-info__number-img {
+    max-width: 20px;
+    max-height: 20px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.promo {
+    min-height: 460px;
+    margin: 82px;
+}
+
+.promo_text_up{
+    font-size: 59px;
+    line-height: 66px;
+    color: #161616;
+}
+
+.promo_text_dow {
+    width: 570px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300 ;
+    font-size: 24px;
+    line-height: 34px;
+    color: #161616;
+    margin-top: 32px; 
+}
+
+.promo_button {
+    width: 210px;
+    height: 59px;
+    left: 405px;
+    top: 462px;
+    background: #69766D;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    border: 0;
+    color: #F6F6F5;
+    margin-top: 64px;
+}
+
+.svg_ico svg {
+    margin-top: 20px;
+}
+
+.svg_ico:hover svg path, .svg_ico:focus svg path, .svg_ico:active svg path {
+    fill: #B8926B;
+    stroke: #B8926B
+}
+
+.svg_ico:hover svg circle, .svg_ico:focus svg circle, .svg_ico:active svg circle {
+    stroke: #B8926B
+}
+
+.footer_info {
+    min-height: 80px;
+    margin: 90px 0 65px 0;
+}
+
+.h_footer {
+    font-size: 40px;
+    line-height: 45px;
+    color: #161616;
+}
+
+.pricing {
+    min-height: 480px;
+    margin: 253px;
+}
+
+.team {
+    min-height: 360px;
+    margin: 180px;
+}
+
+.footer {
+    min-height: 380px;
+}
+
+/* @media only screen and (max-width: 1000px) {
+
+} */
+/* .col {
+    background-color: #eee;
+    border: solid 1px #aaa;
+} */
