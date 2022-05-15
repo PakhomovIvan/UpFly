@@ -66,8 +66,8 @@ img {
 }
 
 .block {
-    background-color: #ddd;
-    border: solid 1px #aaa;
+    /* background-color: #ddd;
+    border: solid 1px #aaa; */
     /* padding: 20px; */
     text-align: center;
     height: 100%;
@@ -84,8 +84,8 @@ img {
 .header {
     min-height: 80px;
     margin: 72px;
-    background-color: #ddd;
-    border: solid 1px #aaa;
+    /* background-color: #ddd;
+    border: solid 1px #aaa; */
 }
 
 .header__link {
@@ -349,7 +349,7 @@ li:last-child {
 .elem-s {
     max-height: 238px;
     max-width: 176px;
-    border: solid 1px #aaa;
+    /* border: solid 1px #aaa; */
     text-align: left;
 }
 
