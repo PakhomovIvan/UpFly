@@ -239,12 +239,25 @@ li:last-child {
     color: #69766D;
     align-items: flex-start;
     margin-bottom: 32px;
+    margin-top: 10px;
 }
 
 .pop_up_body_container1 input, .pop_up_body_container2 input {
     width: 521px;
     height: 40px;
     background: #FEFEFE;
+    border: 0.5px solid #E4E4E4;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #161616;
+    padding-left: 10px;
+}
+
+.pop_up_body_container1 input:focus, .pop_up_body_container2 input:focus{
+    outline: none;
     border: 0.5px solid #D8BFA9;
 }
 
@@ -288,6 +301,13 @@ li:last-child {
     line-height: 22px;
     color: #F6F6F5;
     border: 0;
+}
+
+.pop_up_close{
+    position: absolute;
+    top: 26px;
+    right: 26px;
+    cursor: pointer;
 }
 
 .svg_ico:hover svg path, .svg_ico:focus svg path, .svg_ico:active svg path {
