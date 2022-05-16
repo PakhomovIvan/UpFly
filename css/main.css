@@ -322,6 +322,27 @@ li:last-child {
     margin-bottom: 45px;
 }
 
+.footer_text {
+    width: 470px;
+    height: 45px;
+}
+
+.footer_text_backg {
+    position: relative;
+    padding-top: 8px;
+}
+
+.footer_text_backg::after{
+    display: block;
+    content: '';
+    width: 69px;
+    height: 2px;
+    background-color: #D8BFA9;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .f_img {
     width: 60px;
     height: 60px;
@@ -355,7 +376,7 @@ li:last-child {
     color: #161616;
 }
 
-/* .b_b_helper {
+.b_b_helper {
     background-color: #ddd;
     border: solid 1px #aaa;
-} */
+}
