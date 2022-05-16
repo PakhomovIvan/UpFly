@@ -82,12 +82,32 @@ img {
     font-size: 20px;
     line-height: 22px;
     color: #161616;
+    position: relative;
+    padding-top: 2px;
 }
 
-.header__link:hover, .header__link:focus, .header__link:active {
-    color: black;
-    border-top: solid 2px #B8926B;
+.header__link::after{
+    display: block;
+    content: '';
+    width: 50%;
+    height: 1.3px;
+    background-color: #D8BFA9;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
+
+/* .footer_text_backg::after{
+    display: block;
+    content: '';
+    width: 69px;
+    height: 2px;
+    background-color: #D8BFA9;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
 
 ul {
     padding-left: 0;
@@ -376,7 +396,7 @@ li:last-child {
     color: #161616;
 }
 
-.b_b_helper {
+/* .b_b_helper {
     background-color: #ddd;
     border: solid 1px #aaa;
-}
+} */
