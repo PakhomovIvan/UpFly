@@ -43,13 +43,8 @@ img {
     gap: 20px;
 }
 
-.new_gap {
-    --bs-gutter-y: 0.5rem;
-}
-
 .row__1 {
     display: flex;
-    /* gap: 12px; */
 }
 
 .sp_btw{
@@ -62,13 +57,9 @@ img {
 .col__1 {
     display: flex;
     flex-direction: column;
-    /* gap: 12px; */
 }
 
 .block {
-    /* background-color: #ddd;
-    border: solid 1px #aaa; */
-    /* padding: 20px; */
     text-align: center;
     height: 100%;
 }
@@ -84,8 +75,6 @@ img {
 .header {
     min-height: 80px;
     margin: 72px;
-    /* background-color: #ddd;
-    border: solid 1px #aaa; */
 }
 
 .header__link {
@@ -122,7 +111,7 @@ li:last-child {
     font-size: 20px;
     line-height: 22px;
     color: #B8926B;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .phones-info__number-img {
@@ -154,22 +143,6 @@ li:last-child {
     color: #161616;
     margin-top: 32px; 
 }
-
-/* .promo_button {
-    width: 210px;
-    height: 59px;
-    background: #69766D;
-    font-family: 'Garamond';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: auto;
-    border: 0;
-    color: #F6F6F5;
-    margin-top: 64px;
-    text-align: center;
-    
-} */
 
 .promo_button {
     margin-top: 64px;
@@ -330,11 +303,11 @@ li:last-child {
 
 .svg_ico:hover svg path, .svg_ico:focus svg path, .svg_ico:active svg path {
     fill: #B8926B;
-    stroke: #B8926B
+    stroke: #B8926B;
 }
 
 .svg_ico:hover svg circle, .svg_ico:focus svg circle, .svg_ico:active svg circle {
-    stroke: #B8926B
+    stroke: #B8926B;
 }
 
 .footer_info {
@@ -382,24 +355,7 @@ li:last-child {
     color: #161616;
 }
 
-    /* content: '';
-    width: 253px;
-    height: 3px;
-    background-color: #006DFE;
-    position: absolute;
-    bottom: 0;
-    left: 0; */
-
-/* @media only screen and (max-width: 1000px) {
-
-} */
-/* .col {
-    background-color: #eee;
-    border: solid 1px #aaa;
-} */
-
-
-.b_b_helper {
+/* .b_b_helper {
     background-color: #ddd;
     border: solid 1px #aaa;
-}
+} */
