@@ -97,17 +97,6 @@ img {
     left: 0;
 }
 
-/* .footer_text_backg::after{
-    display: block;
-    content: '';
-    width: 69px;
-    height: 2px;
-    background-color: #D8BFA9;
-    position: absolute;
-    top: 0;
-    left: 0;
-} */
-
 ul {
     padding-left: 0;
 }
@@ -162,7 +151,7 @@ li:last-child {
     top: 0;
     left: -90px;
     background-image:url(/img/circle_star.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 .promo_text_dow {
@@ -202,18 +191,6 @@ li:last-child {
     transition: .4s ease-in-out;
 }
 
-/* .pop_up::after{
-    display: block;
-    content: '';
-    position: absolute;
-    width: 356px;
-    height: 210px;
-    top: 0;
-    left: -90px;
-    background-image:url(/img/circle_star.png);
-    background-repeat: no-repeat
-} */
-
 .pop_up.active {
     transform: translateY(0%) scale(100%);
     background: rgba(54, 54, 54, 0.3);
@@ -242,6 +219,19 @@ li:last-child {
     line-height: 47px;
     color: #161616;
     margin-bottom: 48px;
+    position: relative;
+}
+
+.pop_up_body p::after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 155px;
+    height: 91px;
+    top: -35px;
+    left: 170px;
+    background-image:url(/img/circle_star_popup.png);
+    background-repeat: no-repeat;
 }
 
 .pop_up_h1 {
@@ -440,8 +430,8 @@ li:last-child {
     line-height: 19px;
     color: #161616;
 }
-
-/* .b_b_helper {
+/* 
+.b_b_helper {
     background-color: #ddd;
     border: solid 1px #aaa;
 } */
