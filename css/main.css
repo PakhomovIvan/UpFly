@@ -315,6 +315,7 @@ li:last-child {
     line-height: 22px;
     color: #F6F6F5;
     border: 0;
+    cursor: pointer;
 }
 
 .pop_up_close {
@@ -430,8 +431,8 @@ li:last-child {
     line-height: 19px;
     color: #161616;
 }
-/* 
-.b_b_helper {
+
+/* .b_b_helper {
     background-color: #ddd;
     border: solid 1px #aaa;
 } */
